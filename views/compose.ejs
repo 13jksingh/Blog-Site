@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+
+
+    <h1>Compose</h1>
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" name="title" id = "title" autofocus>
+            <label for="post" class="form-label">Post</label>
+            <textarea name="postContent" cols="30" rows="10" id = "post" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Publish</button>
+    </form>
+
+<%- include("partials/footer.ejs") %>
